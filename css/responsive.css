@@ -1,0 +1,103 @@
+@media screen and (max-width : 1200px){
+    #hero p {
+        font-size: 1.4rem;
+    }
+
+    #hero h1 {
+        font-size: 3rem;
+    }
+    .social-icon{
+        left: 33%;
+        transform: translate(-80%);
+    }
+    #hero .row{
+        padding-bottom: 100px;
+    }
+    .btn-custom1 {
+        width: 80%;
+    }
+
+    #sertifikat img{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width : 768px){
+
+   
+    #hero p {
+        font-size: 1.2rem;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+    #hero img {
+        margin-top: 20px;
+        width: 50%;
+    }
+    .social-icon{
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    #hero .row{
+        padding-bottom: 100px;
+    }
+    .btn-custom1 {
+        width: 80%;
+    }
+
+    #about p {
+        text-align: center !important;
+    }
+
+    #skill.card h1 {
+        font-size: 1.2rem;
+    }
+
+    #skill.card p {
+        font-size: 1.3rem;
+    }
+
+    #sertifikat img{
+        width: 70%;
+    }
+
+    .nav{
+        background-color: var(--secondaryColor)!important;
+        z-index: 100 !important;
+        margin-bottom: 40%;
+    }
+
+    
+    
+}
+
+@media screen and (max-width : 576px){
+    #about p {
+        text-align: center !important;
+    }
+
+    #hero{
+        padding-top: 17%;
+    }
+
+    .nav{
+        background-color: var(--secondaryColor)!important;
+        z-index: 100 !important;
+        padding-bottom: 45%;
+    }
+
+    
+}
+
+@media screen and (max-width : 350px){
+    #about p {
+        text-align: justify !important;
+    }
+
+    
+
+}
